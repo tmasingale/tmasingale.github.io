@@ -1,0 +1,45 @@
+COLORS
+Red: #ED2929
+Blue: #008CFF
+Black: #000
+
+
+
+<section>
+
+<ul id="navbar">
+<li>Home
+Schedule
+About
+Volunteer
+Register 
+Privacy Policy
+</ul>
+
+<button>
+register now
+</button>
+
+<p>
+All regional universities, colleges and high schools are encouraged to sponsor teams. Teams must have a minimum of two participants and a maximum of five participants. There are no fees to participate but the number of teams are limited to ensure space, and manageability.
+</p>
+
+<h1>
+wh4t 15 TH3 cY83R53CUr1TY K0MP3T1T10n?
+</h1>
+
+<h4>
+Each team must have a designated captain. Captains are the designated point of contact for the event and responsible to register their teams.
+</h4>
+
+<p>
+WHEN: Saturday, February 5th, 2022. 
+WHERE: The Eastern Washington University 
+Catalyst Building 
+601 E. Riverside
+Spokane, WA 99203‍
+
+Registered teams must check-in between 8:00 and 8:30 the morning of the event for room assignments. 
+
+Check-in will be held in the Catalyst Building lobby.
+</p>
