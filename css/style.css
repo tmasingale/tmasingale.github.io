@@ -4,6 +4,7 @@ body {
     line-height: 1.5;
     color: #ffffff;
 
+
     
 
     background-color: #F6F7EB;
@@ -11,7 +12,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 
-    width: 640px;
+    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
 
@@ -23,7 +24,7 @@ body {
 
 
 header {
-    background-color: #F6F7EB;
+    background-color: #363537;
     padding: 40px;
 }
 
@@ -112,3 +113,38 @@ blockquote {
     margin-left: 5px;
 }
 
+@media (max-width: 740px) {
+
+    section, header {
+        padding: 20px;
+    }
+
+    nav {
+        padding: 10px 20px 10px 20px;
+    }
+
+    h2, 
+    blockquote {
+        font-size: 24px;
+    }
+
+    body {
+        padding-top: 0;
+        font-size: 16px;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    nav a:hover {
+        border: none;
+    }
+}
+
+@media (min-width: 1000px)  {
+    body {
+        font-size: 22px;
+    }
+
+}
