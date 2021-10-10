@@ -1,16 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <h1>This is the schedule page</h1>
+<meta charset="UTF-8">
+<title>Spokane CTF – Home of the Spokane Mayor's Cup Cybersecurity Competition</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<script src="index.js"></script>
-  </body>
+<!-- stylesheets -->
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src=""></script>
+<body>
+
+<header>
+    <!-- h1 is best used for the primary heading of the page-->
+    <h1>
+        <img src="images/logo_ctf.svg">
+    </h1>
+</header>
+
+<nav>
+        <a href="index.html">home</a>
+        <a href="schedule.html">schedule</a>
+        <a href="about.html">about</a>
+        <a href="register.html">register</a>
+        <a href="volunteer.html">volunteer</a>
+        <a href="contact.html">contact</a>
+</nav>
+
+<section>
+    <h1>
+      2022 Mayor’s Cup Schedule
+    </h1>
+
+    <h2>
+      Event held at Eastern Washington University Catalyst Building.
+    </h2>
+
+</section>
+
+<section class="event">
+  <p>
+      <span="dateTimeStyle">LOCATION:</span>
+      <span class="tab">The Eastern Washington University<br>
+                              Catalyst Building<br>
+                              601 E. Riverside<br>
+                              Spokane, WA 99203
+      </span>
+  </p>
+
+
+  <table>
+    <caption>EVENT SCHEDULE: Saturay, February 5th, 2022</caption>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Event</th>
+        <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:00-8:30a</td>
+          <td>Team Check-in</td>
+          <td>Catalyst Lobby</td>
+        </tr>
+
+        <tr>
+          <td>8:30-9:00a</td>
+          <td>Opening Remarks
+Rules & Introductions</td>
+          <td>Catalyst Innovation Hub</td>
+        </tr>
+
+        <tr>
+          <td>9:30a-12:00p</td>
+          <td>Hack-Hack</td>
+          <td>Break stuff!</td>
+        </tr>
+
+        <tr>
+          <td>12:00-1:00p</td>
+          <td>Lunch and speakers</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>1:00-3:30p</td>
+          <td>Hack-Hack</td>
+          <td>Hack the Planet!!!</td>
+        </tr>
+
+        <tr>
+          <td>2:30-3:00p</td>
+          <td>Break</td>
+          <td>Snacks</td>
+        </tr>
+
+        <tr>
+          <td>3:00-5:00p</td>
+          <td>Hack-Hack</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>5:00-5:30p</td>
+          <td>Closing Ceremonies</td>
+          <td>Awards and Networking time</td>
+        </tr>
+
+        </tbody>
+
+        <tfoot> <tr> <td colspan="4"></tfoot> </table>
+
+
+</section>
+
+<section class="image">
+
+</section>
+
+<section class="contact">
+    <img src="images/catalyst_map.png" class="map">
+
+    <p>We are a five minute walk from the WSU Riverpoint campus and a ten minute walk from the Convention Center</p>
+
+    <p>For questions about the event or registration, contact the event organizer, Stu Steiner – ssteiner@ewu.edu</p>
+
+</section>
+</body>
 </html>
